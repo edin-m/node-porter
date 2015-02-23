@@ -1,5 +1,4 @@
-var net = require('net')
-    , _ = require('lodash');
+var net = require('net');
 
 module.exports = function(port, done) {
     done = done || port;

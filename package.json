@@ -1,6 +1,6 @@
 {
   "name": "node-porter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check is port open or fetch random port",
   "main": "index.js",
   "scripts": {
@@ -23,9 +23,7 @@
     "url": "https://github.com/edin-m/node-porter/issues"
   },
   "homepage": "https://github.com/edin-m/node-porter",
-  "dependencies": {
-    "lodash": "^3.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "async": "^0.9.0",
     "chai": "^2.0.0",
