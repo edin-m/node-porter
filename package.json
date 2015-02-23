@@ -1,0 +1,34 @@
+{
+  "name": "porter",
+  "version": "1.0.0",
+  "description": "Check is port open or fetch random port",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edin-m/node-porter"
+  },
+  "keywords": [
+    "porter",
+    "port",
+    "open",
+    "free",
+    "port"
+  ],
+  "author": "Edin Mujagic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edin-m/node-porter/issues"
+  },
+  "homepage": "https://github.com/edin-m/node-porter",
+  "dependencies": {
+    "lodash": "^3.3.0"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "chai": "^2.0.0",
+    "mocha": "^2.1.0"
+  }
+}
