@@ -3,13 +3,13 @@ Node.js - check is port available or get random available port.
 Installation
 ===
 ```
-npm install porter --save
+npm install node-porter --save
 ```
 
 Usage
 ===
 ```
-var porter = require('porter');
+var porter = require('node-porter');
 porter(function(err, port) {
     ...
 });
