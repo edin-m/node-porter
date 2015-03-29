@@ -1,6 +1,6 @@
 {
   "name": "node-porter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check is port open or fetch random port",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/edin-m/node-porter"
+    "url": "https://github.com/edinmu/node-porter"
   },
   "keywords": [
     "porter",
@@ -20,9 +20,9 @@
   "author": "Edin Mujagic",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edin-m/node-porter/issues"
+    "url": "https://github.com/edinmu/node-porter/issues"
   },
-  "homepage": "https://github.com/edin-m/node-porter",
+  "homepage": "https://github.com/edinmu/node-porter",
   "dependencies": {},
   "devDependencies": {
     "async": "^0.9.0",
