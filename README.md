@@ -1,5 +1,8 @@
 Node.js - check is port available or get random available port.
 
+[![npm version](https://badge.fury.io/js/node-porter.svg)](https://badge.fury.io/js/node-porter)
+[![Build Status](https://travis-ci.org/edin-m/node-porter.svg?branch=master)](https://travis-ci.org/edin-m/node-porter)
+
 Installation
 ===
 ```
