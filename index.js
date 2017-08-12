@@ -1,6 +1,6 @@
 var net = require('net');
 
-module.exports = function (port, done) {
+function porter(port, done) {
     done = done || port;
     if (typeof port === 'function') {
         port = 0;
@@ -23,4 +23,22 @@ module.exports = function (port, done) {
     });
 
     server.listen(port, 'localhost');
-};
+}
+
+function promised(port) {
+    port = port || 0;
+    return new Promise(function (resolve, reject) {
+        porter(port, function (err, _port) {
+            if (err) {
+                return reject(err);
+            }
+            return resolve(_port);
+        });
+    });
+}
+
+module.exports = porter;
+
+if (typeof Promise === 'function') {
+    module.exports.promised = promised;
+}

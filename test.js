@@ -31,6 +31,7 @@ describe('it should test library', function () {
 
     it('should fail when trying to probe used port', function (done) {
         porter(busyPort, function (err, port) {
+            console.log(err, port);
             expect(err).to.not.be.undefined;
             done();
         });
@@ -50,6 +51,17 @@ describe('it should test library', function () {
             expect(port).to.be.above(0);
             done();
         });
+    });
+
+    it('test promise', function (done) {
+        porter.promised(0)
+            .then(function (port) {
+                expect(port).to.be.above(0);
+                done();
+            })
+            .catch(function (err) {
+                done(err);
+            });
     });
 
     after(function (done) {

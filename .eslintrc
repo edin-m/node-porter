@@ -5,6 +5,7 @@
   },
   "extends": "eslint:recommended",
   "globals": {
+    "Promise": true,
     "describe": true,
     "it": true,
     "before": true,
