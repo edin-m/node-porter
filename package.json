@@ -1,6 +1,6 @@
 {
   "name": "node-porter",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Check is port open or fetch random port",
   "main": "index.js",
   "scripts": {
